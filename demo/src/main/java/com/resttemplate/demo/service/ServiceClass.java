@@ -35,7 +35,7 @@ public class ServiceClass {
 
         String url = "https://api.thecatapi.com/v1/votes/";
         HttpHeaders headers = new HttpHeaders();
-        headers.set("x-api-key", "17d94b92-754f-46eb-99a0-65be65b5d18f");
+        headers.set("x-api-key", "");
 
         HttpEntity entity = new HttpEntity<>(headers);
 
